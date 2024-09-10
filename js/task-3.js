@@ -15,9 +15,13 @@
 // Rezolvare exercitiu:
 // _____________________________________________________________________________________________________________________________________
 
-
-
-
+function getElementWidth(content, padding, border) {
+  const contentNumber = parseFloat(content);
+  const paddingNumber = parseFloat(padding);
+  const borderNumber = parseFloat(border);
+  totalWidth = contentNumber + 2 * paddingNumber + 2 * borderNumber;
+  return totalWidth;
+}
 
 // _____________________________________________________________________________________________________________________________________
 // Verificare
